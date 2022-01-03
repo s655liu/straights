@@ -1,4 +1,4 @@
 This is a game I created for the final project of CS 246 (ObjectOriented Programming) using C++. The game status, instructions, and commands are displayed through the command line. due to regulation policies, I will not display any implementatin code. 
 Instructions: Lanuch the game on the command line with any integer as the command line argument that indicates the seed for shuffling cards.(ie. ./straights 1 )
 The game will have 4 players. The objective is to get the fewest number of points among the players. The game ends when a plyaer reaches 80 points or more, and the player(s) with the lowest score(s) win.  
-Straights uses a standard 520card deck, without the jokers. Each player is dealt 13 cards at the beginning of each round. The Ace is considered to be the lowest card of each suit (rank of 1), while the King is considered to be the highest (rank of 13). 
+Straights uses a standard 52 card deck, without the jokers. Each player is dealt 13 cards at the beginning of each round. The Ace is considered to be the lowest card of each suit (rank of 1), while the King is considered to be the highest (rank of 13). 
