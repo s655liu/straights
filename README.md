@@ -8,3 +8,11 @@ The program begins by prompting the user to enter 'h' or 'c' to indicate whether
 
 If players has no legal plays, then they put a card into their discard pile. They may not discard when having a legal play. 
 After all cards have been played or discarded, the score of each player is the sum of the ranks of the player's discards. The cards are reshuffled and dealt to each player if no player has accumulated 80 points. 
+
+
+Valid Commands:  
+play card : plays a card. The card must be entered with the syntax (rank suit ie. 7S), but does not have to be a legal play or valid card. (Note: Ace = A, 10 = T, Jack = J, Queen = Q, King = J)   
+discard card : discard a card. The card must be entered with the syntax (rank suit ie. 9C), but does not have to be a legal discard.    
+deck : prints the deck    
+quit : terminate the program     
+ragequit : human player quits and replaced by computer   
